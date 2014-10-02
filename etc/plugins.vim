@@ -6,4 +6,10 @@ map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
-let g:EasyMotion_smartcase = 1
+let g:EasyMotion_smartcase=1
+
+" airline
+"let g:airline#extensions#tabline#enabled=1
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
